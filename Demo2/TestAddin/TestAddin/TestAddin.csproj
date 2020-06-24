@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoDevelop.Addins" Version="0.4.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CommandHandlers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestAddin.gtk\TestAddin.gtk.csproj" />
+  </ItemGroup>
+</Project>
